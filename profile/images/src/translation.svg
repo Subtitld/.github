@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="96" viewBox="0 0 880 96"><defs>
+<radialGradient id="bg" cx="105.6" cy="48.0" r="660.0" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#566f84"/><stop offset="0.55" stop-color="#2b3845"/><stop offset="1" stop-color="#161d24"/></radialGradient>
+<linearGradient id="fadeX" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.15" stop-color="#fff" stop-opacity="1"/><stop offset="0.85" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="fade"><rect width="880" height="96" fill="url(#fadeX)"/></mask>
+<filter id="blur" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="6"/></filter>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="10"/></filter>
+<linearGradient id="fr" x1="0" x2="1"><stop offset="0.6" stop-color="#fff" stop-opacity="0"/><stop offset="0.78" stop-color="#fff"/><stop offset="0.97" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient><mask id="fadeR"><rect width="880" height="96" fill="url(#fr)"/></mask>
+<clipPath id="card"><rect width="880" height="96" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#card)"><rect width="880" height="96" fill="url(#bg)"/><g mask="url(#fadeR)"><text x="560" y="60" fill="#b8cee0" opacity="0.22" style="font-family:Montserrat,Noto Sans CJK JP,sans-serif;font-size:30px">Olá</text><text x="628" y="38" fill="#b8cee0" opacity="0.2" style="font-family:Montserrat,Noto Sans CJK JP,sans-serif;font-size:20px">Hello</text><text x="650" y="78" fill="#b8cee0" opacity="0.22" style="font-family:Montserrat,Noto Sans CJK JP,sans-serif;font-size:24px">Hallo</text><text x="712" y="44" fill="#b8cee0" opacity="0.25" style="font-family:Montserrat,Noto Sans CJK JP,sans-serif;font-size:20px">こんにちは</text><text x="730" y="84" fill="#b8cee0" opacity="0.2" style="font-family:Montserrat,Noto Sans CJK JP,sans-serif;font-size:18px">Bonjour</text><text x="818" y="74" fill="#b8cee0" opacity="0.25" style="font-family:Montserrat,Noto Sans CJK JP,sans-serif;font-size:24px">你好</text></g>
+<rect x="28" y="30" width="5" height="36" rx="2.5" fill="#55d43f"/>
+<text x="48" y="50" fill="#e6eef5" style="font-family:Montserrat;font-weight:400;font-size:20px;letter-spacing:6px">TRANSLATION</text>
+<text x="49" y="72" fill="#8ca2b4" style="font-family:Montserrat;font-size:13px">Every subtitle into another language, on this computer.</text></g></svg>
